@@ -15,7 +15,7 @@ basic.forever(function () {
     for (let index = 0; index <= 23; index++) {
         strip.show()
         strip.rotate(speed)
-        basic.pause(200)
+        basic.pause(100)
     }
     if (color == neopixel.colors(NeoPixelColors.Red)) {
         color = neopixel.colors(NeoPixelColors.Orange)
